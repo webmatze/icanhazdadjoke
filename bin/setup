@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+
+# Exit if any subcommand fails
+set -e
+
+# Welcome message
+echo "Setting up the ICanHazDadJoke gem development environment..."
+
+# Install Ruby dependencies
+echo "Installing Ruby dependencies..."
+bundle install
+
+# Setup or update the database (if your project uses a database)
+# echo "Setting up the database..."
+# bin/rails db:setup
+
+# Any other setup specific to your project
+# echo "Doing other setup..."
+
+echo "Setup complete! You can now run the project with 'bin/console' or 'rake test'."
+
+# Make the script executable with the following command:
+# chmod +x bin/setup

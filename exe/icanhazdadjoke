@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+require_relative '../lib/icanhazdadjoke'
+
+joke = ICanHazDadJoke.fetch_joke
+if joke
+  puts joke
+else
+  puts "Failed to fetch a joke."
+end

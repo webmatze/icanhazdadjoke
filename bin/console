@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+require 'bundler/setup'
+require 'irb'
+require 'irb/completion'
+
+# Require your main project file if necessary
+require 'icanhazdadjoke'
+
+# Start an IRB session
+IRB.start
