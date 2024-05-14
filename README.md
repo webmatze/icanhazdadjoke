@@ -2,6 +2,21 @@
 
 Welcome to the `icanhazdadjoke` gem! This Ruby gem provides a simple interface to fetch jokes from the icanhazdadjoke API, which is a service for getting random dad jokes.
 
+```bash
+$ icanhazdadjoke | cowsay
+ ________________________________________
+/ I remember when I was a kid, I opened  \
+| my fridge and noticed one of my        |
+| vegetables were crying. I guess I have |
+\ some emotional cabbage.                /
+ ----------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+```
+
 ## Installation
 
 Add this line to your application's Gemfile:
